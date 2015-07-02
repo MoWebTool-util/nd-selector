@@ -14,13 +14,16 @@ var Selector = module.exports = Widget.extend({
 
   attrs: {
     classPrefix: 'ui-selector',
-    template: require('./src/selector.handlebars')
+    template: require('./src/selector.handlebars'),
+    filter: function(option) {
+      return option;
+    }
   },
 
   events: {
     'click div': function(e) {
       this.trigger('select',
-        this.get('options')[e.target.getAttribute('data-index')],
+        this.get('filter')(this.get('options')[e.target.getAttribute('data-index')]),
         e.target, e.ctrlKey || e.metaKey);
     }
   },
