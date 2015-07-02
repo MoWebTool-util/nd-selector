@@ -2,7 +2,7 @@
 
 [![spm version](http://spm.crossjs.com/badge/nd-selector)](http://spm.crossjs.com/package/nd-selector)
 
-> UC Authorization
+> 数据选择器（用于表情）
 
 ## 安装
 
