@@ -1,0 +1,30 @@
+{
+  "name": "nd-selector",
+  "version": "1.0.0",
+  "description": "数据选择器（用于表情）",
+  "keywords": [],
+  "homepage": "https://github.com/ndfront/nd-selector",
+  "author": {
+    "name": "crossjs",
+    "email": "liwenfu@crossjs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndfront/nd-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ndfront/nd-selector/issues"
+  },
+  "licenses": "MIT",
+  "devDependencies": {},
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "nd-widget": "1.0.0",
+      "nd-template": "1.0.0"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}
